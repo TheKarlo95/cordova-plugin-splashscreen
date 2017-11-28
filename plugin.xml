@@ -18,15 +18,17 @@
   under the License.
 -->
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="cordova-plugin-splashscreen"
-      version="4.1.1-dev">
-    <name>Splashscreen</name>
-    <description>Cordova Splashscreen Plugin</description>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-splashscreen-thekarlo95"
+    version="4.1.1-dev">
+
+    <name>Splashscreen (fork by TheKarlo95)</name>
+    <description>Cordova Splashscreen Plugin (fork by TheKarlo95)</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,splashscreen</keywords>
-    <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-splashscreen.git</repo>
-    <issue>https://issues.apache.org/jira/browse/CB/component/12320653</issue>
+    <keywords>cordova,splashscreen,thekarlo95</keywords>
+    <repo>https://github.com/TheKarlo95/cordova-plugin-splashscreen.git</repo>
+    <issue>https://github.com/TheKarlo95/cordova-plugin-splashscreen/issues</issue>
 
     <engines>
         <engine name="cordova-android" version=">=3.6.0" /><!-- Requires CordovaPlugin.preferences -->
@@ -41,23 +43,23 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="SplashScreen">
-                <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+                <param name="android-package" value="hr.thekarlo95.cordova.splashscreen.SplashScreen"/>
                 <param name="onload" value="true"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/SplashScreen.java" target-dir="src/org/apache/cordova/splashscreen" />
+        <source-file src="src/android/SplashScreen.java" target-dir="src/hr/thekarlo95/cordova/splashscreen" />
     </platform>
 
     <!-- amazon-fireos -->
     <platform name="amazon-fireos">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="SplashScreen">
-            <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+            <param name="android-package" value="hr.thekarlo95.cordova.splashscreen.SplashScreen"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/SplashScreen.java" target-dir="src/org/apache/cordova/splashscreen" />
+        <source-file src="src/android/SplashScreen.java" target-dir="src/hr/thekarlo95/cordova/splashscreen" />
     </platform>
 
     <!-- ubuntu -->

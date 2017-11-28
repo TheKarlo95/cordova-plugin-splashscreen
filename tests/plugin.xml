@@ -18,10 +18,12 @@
   under the License.
 -->
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-splashscreen-tests"
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-splashscreen-thekarlo95-tests"
     version="4.1.1-dev">
-    <name>Cordova Splashscreen Plugin Tests</name>
+
+    <name>Cordova Splashscreen Plugin Tests (fork by TheKarlo95)</name>
     <license>Apache 2.0</license>
 
     <js-module src="tests.js" name="tests">

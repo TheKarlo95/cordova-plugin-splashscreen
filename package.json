@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-splashscreen",
+  "name": "cordova-plugin-splashscreen-thekarlo95",
   "version": "4.1.1-dev",
-  "description": "Cordova Splashscreen Plugin",
+  "description": "Cordova Splashscreen Plugin (fork by TheKarlo95)",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-splashscreen",
+    "id": "cordova-plugin-splashscreen-thekarlo95",
     "platforms": [
       "android",
       "amazon-fireos",
@@ -36,7 +36,8 @@
     "cordova-wp8",
     "cordova-windows8",
     "cordova-windows",
-    "cordova-tizen"
+    "cordova-tizen",
+    "thekarlo95"
   ],
   "scripts": {
     "test": "npm run jshint",
@@ -56,7 +57,7 @@
       }
     }
   },
-  "author": "Apache Software Foundation",
+  "author": "TheKarlo95",
   "license": "Apache-2.0",
   "devDependencies": {
     "jshint": "^2.6.0"
